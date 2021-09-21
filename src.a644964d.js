@@ -5,4 +5,4 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"Focm":[function(require,module,exports) {
 "use strict";require("./sass/main.scss");var t=require("./js/getRefs");const e=(0,t.getRefs)(),s=["#FFFFFF","#2196F3","#4CAF50","#FF9800","#009688","#795548"],r=(t,e)=>Math.floor(Math.random()*(e-t+1)+t);let a=null;const n=()=>{e.body.style.backgroundColor=s[r(0,s.length-1)]};e.startBtn.addEventListener("click",()=>{a=setInterval(n,1e3),e.startBtn.disabled=!0}),e.stopBtn.addEventListener("click",()=>{clearInterval(a),e.startBtn.disabled=!1});
 },{"./sass/main.scss":"clu1","./js/getRefs":"qJUB"}]},{},["Focm"], null)
-//# sourceMappingURL=/goit-js-hw-11-color-switch/src.20a637dc.js.map
+//# sourceMappingURL=/goit-js-hw-11-color-switch/src.a644964d.js.map
